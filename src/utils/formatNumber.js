@@ -1,0 +1,1 @@
+export const formatNumber = (value, options = {}) => new Intl.NumberFormat('ru-RU', options).format(Number(value) || 0)
