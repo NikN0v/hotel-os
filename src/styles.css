@@ -1,0 +1,56 @@
+@import "tailwindcss/theme.css";
+@import "tailwindcss/utilities.css";
+
+@theme inline {
+  /* Brand */
+
+  --color-hotel-primary: var(--hotel-primary);
+  --color-hotel-primary-hover: var(--hotel-primary-hover);
+  --color-hotel-primary-active: var(--hotel-primary-active);
+  --color-hotel-primary-light: var(--hotel-primary-light);
+
+  /* Status */
+
+  --color-hotel-success: var(--hotel-success);
+  --color-hotel-warning: var(--hotel-warning);
+  --color-hotel-danger: var(--hotel-danger);
+  --color-hotel-info: var(--hotel-info);
+
+  /* Background */
+
+  --color-hotel-bg: var(--hotel-bg);
+  --color-hotel-bg-secondary: var(--hotel-bg-secondary);
+
+  --color-hotel-surface: var(--hotel-surface);
+  --color-hotel-surface-secondary: var(--hotel-surface-secondary);
+  --color-hotel-surface-hover: var(--hotel-surface-hover);
+  --color-hotel-surface-active: var(--hotel-surface-active);
+
+  /* Text */
+
+  --color-hotel-text-primary: var(--hotel-text-primary);
+  --color-hotel-text-secondary: var(--hotel-text-secondary);
+  --color-hotel-text-muted: var(--hotel-text-muted);
+  --color-hotel-text-disabled: var(--hotel-text-disabled);
+  --color-hotel-text-inverse: var(--hotel-text-inverse);
+
+  /* Border */
+
+  --color-hotel-border: var(--hotel-border);
+  --color-hotel-border-hover: var(--hotel-border-hover);
+  --color-hotel-border-focus: var(--hotel-border-focus);
+
+  /* Radius */
+
+  --radius-hotel-xs: var(--hotel-radius-xs);
+  --radius-hotel-sm: var(--hotel-radius-sm);
+  --radius-hotel-md: var(--hotel-radius-md);
+  --radius-hotel-lg: var(--hotel-radius-lg);
+  --radius-hotel-xl: var(--hotel-radius-xl);
+  --radius-hotel-2xl: var(--hotel-radius-2xl);
+  --radius-hotel-full: var(--hotel-radius-full);
+
+  /* Font */
+
+  --font-hotel: var(--hotel-font-family);
+}

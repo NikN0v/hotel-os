@@ -1,0 +1,154 @@
+:root {
+  // ==========================================
+  // Brand
+  // ==========================================
+
+  --hotel-primary: #4f46e5;
+  --hotel-primary-hover: #4338ca;
+  --hotel-primary-active: #3730a3;
+  --hotel-primary-light: #eef2ff;
+
+  // ==========================================
+  // Semantic colors
+  // ==========================================
+
+  --hotel-success: #16a34a;
+  --hotel-success-hover: #15803d;
+  --hotel-success-light: #dcfce7;
+
+  --hotel-warning: #d97706;
+  --hotel-warning-hover: #b45309;
+  --hotel-warning-light: #fef3c7;
+
+  --hotel-danger: #dc2626;
+  --hotel-danger-hover: #b91c1c;
+  --hotel-danger-light: #fee2e2;
+
+  --hotel-info: #0284c7;
+  --hotel-info-hover: #0369a1;
+  --hotel-info-light: #e0f2fe;
+
+  // ==========================================
+  // Background
+  // ==========================================
+
+  --hotel-bg: #f8fafc;
+  --hotel-bg-secondary: #f1f5f9;
+
+  --hotel-surface: #ffffff;
+  --hotel-surface-secondary: #f8fafc;
+  --hotel-surface-hover: #f1f5f9;
+  --hotel-surface-active: #e2e8f0;
+
+  // ==========================================
+  // Text
+  // ==========================================
+
+  --hotel-text-primary: #0f172a;
+  --hotel-text-secondary: #475569;
+  --hotel-text-muted: #64748b;
+  --hotel-text-disabled: #cbd5e1;
+  --hotel-text-inverse: #ffffff;
+
+  // ==========================================
+  // Border
+  // ==========================================
+
+  --hotel-border: #cbd5e1;
+  --hotel-border-hover: #94a3b8;
+  --hotel-border-focus: #2563eb;
+
+  // ==========================================
+  // Typography
+  // ==========================================
+
+  --hotel-font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+
+  --hotel-font-size-xs: 12px;
+  --hotel-font-size-sm: 13px;
+  --hotel-font-size-md: 14px;
+  --hotel-font-size-lg: 16px;
+  --hotel-font-size-xl: 20px;
+  --hotel-font-size-2xl: 24px;
+  --hotel-font-size-3xl: 30px;
+  --hotel-font-size-4xl: 36px;
+
+  --hotel-font-weight-normal: 400;
+  --hotel-font-weight-medium: 500;
+  --hotel-font-weight-semibold: 600;
+  --hotel-font-weight-bold: 700;
+
+  --hotel-line-height-tight: 1.2;
+  --hotel-line-height-normal: 1.5;
+  --hotel-line-height-relaxed: 1.7;
+
+  // ==========================================
+  // Radius
+  // ==========================================
+
+  --hotel-radius-xs: 4px;
+  --hotel-radius-sm: 6px;
+  --hotel-radius-md: 10px;
+  --hotel-radius-lg: 14px;
+  --hotel-radius-xl: 18px;
+  --hotel-radius-2xl: 24px;
+  --hotel-radius-full: 9999px;
+
+  // ==========================================
+  // Shadows
+  // ==========================================
+
+  --hotel-shadow-xs:
+    0 1px 2px rgb(15 23 42 / 0.04);
+
+  --hotel-shadow-sm:
+    0 1px 3px rgb(15 23 42 / 0.06);
+
+  --hotel-shadow-md:
+    0 4px 12px rgb(15 23 42 / 0.08);
+
+  --hotel-shadow-lg:
+    0 10px 30px rgb(15 23 42 / 0.10);
+
+  --hotel-shadow-xl:
+    0 20px 50px rgb(15 23 42 / 0.12);
+
+  // ==========================================
+  // Layout
+  // ==========================================
+
+  --hotel-sidebar-width: 260px;
+  --hotel-sidebar-collapsed-width: 72px;
+  --hotel-header-height: 72px;
+
+  --hotel-content-max-width: 1600px;
+
+  // ==========================================
+  // Z-index
+  // ==========================================
+
+  --hotel-z-base: 1;
+  --hotel-z-dropdown: 100;
+  --hotel-z-sticky: 200;
+  --hotel-z-sidebar: 300;
+  --hotel-z-header: 400;
+  --hotel-z-overlay: 500;
+  --hotel-z-modal: 600;
+  --hotel-z-toast: 700;
+
+  // ==========================================
+  // Transitions
+  // ==========================================
+
+  --hotel-transition-fast: 150ms ease;
+  --hotel-transition-normal: 250ms ease;
+  --hotel-transition-slow: 350ms ease;
+}
