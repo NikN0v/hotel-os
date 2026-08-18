@@ -59,7 +59,7 @@ export const useRoomsStore = defineStore('rooms', () => {
             error.value = err
             throw err
         } finally {
-            updatingRoomId.value = false
+            updatingRoomId.value = null
         }
     }
 
