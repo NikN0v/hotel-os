@@ -1,0 +1,129 @@
+.hotel-scheduler {
+    --dp-bg: var(--hotel-surface);
+    --dp-bg-secondary: var(--hotel-surface-secondary);
+    --dp-bg-hover: var(--hotel-surface-hover);
+
+    --dp-border: var(--hotel-border);
+
+    --dp-text: var(--hotel-text-primary);
+    --dp-text-secondary: var(--hotel-text-secondary);
+    --dp-text-muted: var(--hotel-text-muted);
+
+    --dp-primary: var(--hotel-primary);
+    --dp-primary-light: var(--hotel-primary-light);
+}
+
+.hotel-scheduler .scheduler_default_main {
+    border: 0 !important;
+    background: var(--dp-bg);
+    color: var(--dp-text);
+    font-family: inherit;
+}
+
+/* =========================
+   Header
+   ========================= */
+
+.hotel-scheduler .scheduler_default_timeheadergroup,
+.hotel-scheduler .scheduler_default_timeheadercol {
+    background: var(--dp-bg-secondary);
+    border-color: var(--dp-border);
+    color: var(--dp-text-secondary);
+}
+
+.hotel-scheduler .scheduler_default_timeheadergroup_inner,
+.hotel-scheduler .scheduler_default_timeheadercol_inner {
+    color: var(--dp-text-secondary);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* =========================
+   Resource column
+   ========================= */
+
+.hotel-scheduler .scheduler_default_rowheader {
+    background: var(--dp-bg);
+    border-color: var(--dp-border);
+    color: var(--dp-text);
+}
+
+.hotel-scheduler .scheduler_default_rowheader_inner {
+    padding: 0 14px;
+    color: var(--dp-text);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* =========================
+   Grid
+   ========================= */
+
+.hotel-scheduler .scheduler_default_cell {
+    background: var(--dp-bg);
+    border-color: var(--dp-border);
+}
+
+.hotel-scheduler .scheduler_default_cell:hover {
+    background: var(--dp-bg-hover);
+}
+
+/* =========================
+   Events
+   ========================= */
+
+.hotel-scheduler .scheduler_default_event {
+    border: 0 !important;
+    border-radius: var(--hotel-radius-sm);
+    overflow: hidden;
+}
+
+.hotel-scheduler .scheduler_default_event_inner {
+    display: flex;
+    align-items: center;
+
+    border: 0 !important;
+    border-radius: var(--hotel-radius-sm);
+
+    padding: 0 10px;
+
+    font-size: 12px;
+    font-weight: 500;
+
+    box-shadow: none;
+}
+
+/* =========================
+   Today
+   ========================= */
+
+.hotel-scheduler .scheduler_default_cell_today {
+    background: var(--dp-primary-light);
+}
+
+/* =========================
+   Scrollbars
+   ========================= */
+
+.hotel-scheduler ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.hotel-scheduler ::-webkit-scrollbar-track {
+    background: var(--dp-bg-secondary);
+}
+
+.hotel-scheduler ::-webkit-scrollbar-thumb {
+    background: var(--dp-border);
+    border-radius: 999px;
+}
+
+.hotel-scheduler ::-webkit-scrollbar-thumb:hover {
+    background: var(--dp-text-muted);
+}
+
+.hotel-scheduler .scheduler_default_cell:nth-child(7),
+.hotel-scheduler .scheduler_default_cell:nth-child(8) {
+    background: var(--dp-bg-secondary);
+}
